@@ -1,0 +1,63 @@
+.totalBalance {
+    box-sizing: border-box;
+    height: 123px;
+    width: 100%;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 16px;
+    background: url("/src/assets/svg/balance.svg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+
+    position: relative;
+    z-index: 2; /* Выше уровня контента */
+}
+
+.title {
+    color: var(--text-color);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.title strong {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.title svg {
+    fill: var(--text-color);
+    padding: 10px;
+    cursor: pointer;
+}
+
+.balance {
+    font-weight: 700;
+    font-size: 42px;
+    color: var(--text-color);
+}
+
+.currencyChoice {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    padding-top: 36px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    color: var(--text-color);
+    margin-top: -30px;
+    position: relative;
+    z-index: 0;
+}
+
+.iconStyle {
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+    background: var(--switch-color);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    fill: var(--ico-color);
+}

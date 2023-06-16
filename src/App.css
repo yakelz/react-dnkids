@@ -1,0 +1,110 @@
+:root {
+  --bg-color: #F9F9F9;
+  --input-color:  #F3F3F3;
+  --switch-color: #EEEEEF;
+  --ico-color: rgba(166, 164, 164, 0.62);
+  --warning-color: #DE4469;
+  --success-color: #148E00;
+  --progress-color: #03B534;
+
+  --btn-color: #6F84DD;
+  --text-color: #232945;
+}
+
+h1 {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+h2 {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+h3 {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.headerInfo-label {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h4 {
+  margin-bottom: 4px;
+  margin-top: 20px;
+}
+
+h4:first-child {
+  margin-top: 4px;
+}
+
+.button-label {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.input-label {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.inputText-label {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.info-label {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.achievement-label {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  font-family: 'Nunito', Arial, Helvetica, sans-serif;
+  background-color: var(--bg-color);
+}
+
+.root {
+  position: relative;
+}
+.wrapper {
+  min-height: max-content;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 100px; /* высота header */
+  padding-bottom: 60px; /* высота navbar */
+}
+
+main {
+  flex: 1;
+  padding: 16px;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration : none;
+}

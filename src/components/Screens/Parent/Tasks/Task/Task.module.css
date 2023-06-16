@@ -1,0 +1,33 @@
+.task {
+    display: flex;
+    height: 65px;
+    background-color: white;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.12));
+    border-radius: 16px;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    gap: 15px;
+    margin: 11px 0;
+}
+
+.task img {
+    width: 44px;
+    height: 44px;
+    filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.12));
+    border-radius: 8px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.taskWrapper {
+    display: flex;
+}

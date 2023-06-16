@@ -1,0 +1,5 @@
+.courseList{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
